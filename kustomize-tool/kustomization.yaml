@@ -6,6 +6,7 @@ namePrefix: kustomize-
 resources:
   - deployment.yaml
   - service.yaml
-  
+  - hpa.yaml
+
 commonAnnotations:
   organization: cloudopsmeta.com
