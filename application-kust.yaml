@@ -8,7 +8,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/SivaKumar2606/argocd-initial-project1.git
+    repoURL: https://github.com/SivaKumar2606/argocd-workloads.git
     targetRevision: HEAD
     path: kustomize-tool
   destination:
