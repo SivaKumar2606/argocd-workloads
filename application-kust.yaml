@@ -13,12 +13,4 @@ spec:
     path: kustomize-tool
   destination:
     server: https://kubernetes.default.svc
-    namespace: myapp
-
-  syncPolicy:
-    syncOptions:
-    - CreateNamespace=false   # already exists
-
-    automated:
-      selfHeal: true
-      prune: true
+    namespace: default
